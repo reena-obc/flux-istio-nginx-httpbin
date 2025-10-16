@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/shashanksapre/flux-istio-nginx-httpbin
+  url: ssh://git@github.com/reena-obc/flux-istio-nginx-httpbin
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
